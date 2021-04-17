@@ -31,8 +31,3 @@ The console represents the the command window above and we can either write text
 # Reading from a Console App
 
 While the above example demonstrates how we can read from a console app. Sometimes, it is necessary to write from one.
-
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
