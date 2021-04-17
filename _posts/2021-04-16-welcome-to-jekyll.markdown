@@ -24,6 +24,10 @@ namespace ConsoleApp
 }
 {% endhighlight %}
 
+![My image Name](/assets/img/image.png)
+
+The console represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
