@@ -19,16 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The .NET CORE
-email: your-email@example.com
+email: byronlong@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The .NET CORE.  A comprehensive resource for all things .NET.
+  The .NET CORE.  A resource for all things .NET.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  byronlong99
 
 # Build settings
-theme: minima
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
