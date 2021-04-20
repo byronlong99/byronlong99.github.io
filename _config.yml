@@ -28,7 +28,7 @@ github_username:  byronlong99
 
 # Build settings
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
-#theme: jekyll-theme-clean-blog
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
