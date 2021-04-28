@@ -38,6 +38,7 @@ While the above example demonstrates how we can read from a console app. Sometim
 
 {% highlight csharp linenos %}
 using System;
+
 namespace ConsoleApp
 {
     static class Program
