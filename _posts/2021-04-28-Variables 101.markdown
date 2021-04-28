@@ -19,7 +19,7 @@ Variables are how we maintain state in a program.  Without them, we would be lim
 These types are called primitives, since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future blog.
 
 
-```csharp
+{% highlight csharp linenos %}
 using System;
  
 namespace ConsoleApp
@@ -32,7 +32,7 @@ namespace ConsoleApp
         }
     }
 }
-```
+{% endhighlight %}
 
 ```console
 C:\Users\MyAccount\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe

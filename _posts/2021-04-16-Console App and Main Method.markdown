@@ -10,7 +10,7 @@ This blog is intended to give a straightforward, explanation of programming conc
 
 To have a program, we must first have a **starting point**. The main method provides us with our starting point. When we execute the program, it will begin on line 9 in the below code block. The resulting output of the console would be **“Hello World”** and the program would terminate since there are no more lines of code to execute.
 
-```csharp
+{% highlight csharp linenos %}
 using System;
  
 namespace ConsoleApp
@@ -23,7 +23,7 @@ namespace ConsoleApp
         }
     }
 }
-```
+{% endhighlight %}
 
 ```console
 C:\Users\MyAccount\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
