@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Console App and Main Method"
+title:  Console App and Main Method
 date:   2021-04-16 21:27:49 -0400
 categories: basics
+background: /assets/img/banner.jpg
 ---
 
 This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET. However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET Core** we will use C# as the example language, but most (if not all) of the concepts are applicable to all languages.
