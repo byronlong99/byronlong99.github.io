@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-description: About the .NET CORE.
-permalink: /about/
+title: Categories
+description: Our posts categorized for easier searching.
+permalink: /categories/
 background: /assets/img/banner.jpg
 ---
 
