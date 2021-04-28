@@ -36,7 +36,7 @@ The **console** represents the the command window above and we can either write 
 
 While the above example demonstrates how we can read from a console app. Sometimes, it is necessary to write from one.  In the below example the console app will print "Please enter your name..." and pause.
 
-```csharp
+{% highlight csharp linenos %}
 using System;
 namespace ConsoleApp
 {
@@ -52,7 +52,7 @@ namespace ConsoleApp
         }
     }
 }
-```
+{% endhighlight %}
 
 {% highlight console %}
 C:\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
