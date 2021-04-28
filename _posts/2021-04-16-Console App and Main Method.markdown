@@ -25,10 +25,10 @@ namespace ConsoleApp
 }
 {% endhighlight %}
 
-```console
-C:\Users\MyAccount\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
+{% highlight console %}
+C:\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
 Hello World!
-```
+{% endhighlight %}
 
 The **console** represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
 
@@ -44,16 +44,23 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your name...");
-            string name = Console.ReadLine();
+            Console.WriteLine("Please enter your first name...");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("Please enter your last name...");
+            string lastName = Console.ReadLine();
+            Console.WriteLine("Your name is: " + firstName + " " + lastName);
         }
     }
 }
 ```
 
-```console
-C:\Users\MyAccount\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
-Please enter your name...
-```
+{% highlight console %}
+C:\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
+Please enter your first name...
+Billy
+Please enter your last name...
+Bob
+Your name is Billy Bob
+{% endhighlight %}
 
-You can then type in your name.  If you typed "Billy Bob" and pressed enter, for example.  The value of the variable **name** would be "Billy Bob".
+You can then type in your first name, press enter, then type your last name, and press enter once again.  If you typed "Billy", then "Bob" for example, the program would output "Your name is Billy Bob".
