@@ -1,0 +1,42 @@
+---
+layout: post
+title:  Variables 101
+date:   2021-04-27 21:27:49 -0400
+categories: basics
+background: /assets/img/banner.jpg
+---
+
+Variables are how we maintain state in a program.  Without them, we would be limited to hard-coded values.  There are many types of variables we can create.  Below is a list of examples:
+
+* **bool** (either "true" or "false")
+* **int** (32-bit integer.  Values range from -2,147,483,648 to 2,147,483,647)
+* **long** (64-bit integer)
+* **float** (32-bit floating point number)
+* **double**
+* **decimal** ()
+* **string**
+
+These types are called primitives, since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future blog.
+
+
+```csharp
+using System;
+ 
+namespace ConsoleApp
+{
+    static class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}
+```
+
+```console
+C:\Users\MyAccount\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
+Hello World!
+```
+
+The **console** represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
