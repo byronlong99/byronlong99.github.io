@@ -25,16 +25,22 @@ namespace ConsoleApp
 }
 {% endhighlight %}
 
+The only executable code in this example is line **9**.  
+
+Output below:
+
 {% highlight console %}
 C:\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
 Hello World!
 {% endhighlight %}
 
+
+
 The **console** represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
 
 # Reading from a Console App
 
-While the above example demonstrates how we can read from a console app. Sometimes, it is necessary to write from one.  In the below example the console app will print "Please enter your name..." and pause.
+While the above example demonstrates how we write to the console, sometimes, it is necessary to read from one.  In the below example the console app will print "Please enter your name..." and pause.
 
 {% highlight csharp linenos %}
 using System;
