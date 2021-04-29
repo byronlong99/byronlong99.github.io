@@ -19,6 +19,7 @@ background: /assets/img/banner.jpg
 These types are called primitives since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future post.  Let's use a simple example of **integers**.  
 
 #### Problem 
+
 The local animal shelter calls you.  They say that they've taken in too many cats and they can no longer keep track of them.  They need **YOU** to solve the problem.
 
 They need you to keep track of **2** types of cats.  Tortoise shells and calicos.
