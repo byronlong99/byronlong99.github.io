@@ -27,7 +27,7 @@ They need you to keep track of **2** types of cats.  Tortoise shells and calicos
 
 <img src="/assets/img/variables101/calico.jpg" width="750"/>
 
-First, we can can declare a variable for the
+First, we can can declare a variable for each type of cat.
 
 {% highlight csharp linenos %}
 int tortoiseShellCats;
