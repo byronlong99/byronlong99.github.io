@@ -6,37 +6,34 @@ categories: basics
 background: /assets/img/banner.jpg
 ---
 
-Variables are how we maintain state in a program.  Without them, we would be limited to hard-coded values.  There are many types of variables we can create.  Below is a list of examples:
+**Variables** are how we maintain state in a program.  Without them, we would be limited to hard-coded values and programs would not be able to change their output in response to user input.  There are many types of variables we can create.  Below is a list of examples:
 
 * **bool** (either "true" or "false")
 * **int** (32-bit integer.  Values range from -2,147,483,648 to 2,147,483,647)
 * **long** (64-bit integer)
 * **float** (32-bit floating point number)
-* **double**
-* **decimal** ()
-* **string**
+* **double** (64-bit floating point number)
+* **char** (single character.  i.e. c, 9, r, V)
+* **string** (text.  i.e. "Billy Bob")
 
-These types are called primitives, since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future blog.
+These types are called primitives since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future post.  Let's use a simple example of **integers**.  
+
+#### Problem 
+The local animal shelter calls you.  They say that they've taken in too many cats and they can no longer keep track of them.  They need **YOU** to solve the problem.
+
+They need you to keep track of **2** types of cats.  Tortoise shells and calicos.
+
+<img src="/assets/img/variables101/tortoiseshell.jpg" width="750"/>
+
+<img src="/assets/img/variables101/calico.jpg" width="750"/>
+
+First, we can can declare a variable for the
+
+{% highlight csharp linenos %}
+int tortoiseShellCats;
+int calicoCats;      
 
 
-```csharp
-using System;
- 
-namespace ConsoleApp
-{
-    static class Program
-    {
-        static void Main(string[] args)
-        {
-            
-        }
-    }
-}
-```
 
-```console
-C:\Users\MyAccount\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
-Hello World!
-```
-
-The **console** represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
+Console.WriteLine("Calicos:" );        
+{% endhighlight %}
