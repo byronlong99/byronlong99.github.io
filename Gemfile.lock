@@ -76,7 +76,7 @@ DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
-  jekyll-theme-clean-blog
+  jekyll-theme-clean-blog (= 4.0.10)
   rouge
   tzinfo (~> 1.2)
   tzinfo-data
