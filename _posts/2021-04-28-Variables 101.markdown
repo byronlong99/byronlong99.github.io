@@ -21,19 +21,34 @@ These types are called primitives since they are the simplest types that can be 
 #### Problem 
 The local animal shelter calls you.  They say that they've taken in too many cats and they can no longer keep track of them.  They need **YOU** to solve the problem.
 
-They need you to keep track of **2** types of cats.  Tortoise shells and calicos.
+They need you to keep track of **2** breeds of cats.  Tortoise shells and calicos.
 
 <img src="/assets/img/variables101/tortoiseshell.jpg" width="750"/>
 
 <img src="/assets/img/variables101/calico.jpg" width="750"/>
 
-First, we can can declare a variable for each type of cat.
+They want to be able to enter the count of each and know the total number of cats.  They are counting on **US** to do it!
 
-{% highlight csharp linenos %}
+First, let's declare a variable for each type of cat.  Then we can read from the console to set the count of each breed of cat.
+
+{% highlight csharp %}
 int tortoiseShellCats;
 int calicoCats;      
 
+Console.WriteLine("Enter number of tortoise shells:" );
+tortoiseShellCats = Console.ReadLine();
 
+Console.WriteLine("Enter number of calicos:" );
+calicoCats = Console.ReadLine();
+{% endhighlight %}
+
+Next we must add the count of both cats together.  This requires some simple addition which we can express below:
+
+{% highlight csharp %}
+int totalCats = tortoiseShellCats + calicoCats;
+{% endhighlight %}
+
+This will add the value of **tortoiseShellCats** to **calicoCats** and store the value in **totalCats**.
 
 Console.WriteLine("Calicos:" );        
-{% endhighlight %}
+
