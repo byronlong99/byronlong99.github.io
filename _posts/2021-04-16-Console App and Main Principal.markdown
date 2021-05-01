@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Console App and Main Principal
+title:  Aplicación de Consola y Método Principal
 date:   2021-04-16 21:27:49 -0400
 categories: basics
 background: /assets/img/banner.jpg
