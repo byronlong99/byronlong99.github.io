@@ -6,7 +6,8 @@ layout: default
 {% if page.background %}
 
 {% assign versions_of_this_post = site.posts | where : "ref", page.ref %}
-{% assign spanish_post = versions_of_this_post.items | where : "lang", "es" | first %}
+{% assign english_post = versions_of_this_post | where : "lang", "en" | first %}
+{% assign spanish_post = versions_of_this_post | where : "lang", "es" | first %}
 
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
@@ -27,10 +28,16 @@ layout: default
               content=page.content %}              
             </span>
             <span class="meta">
-              {% if spanish_post %}
+              {% if spanish_post and page.lang != "es" %}
               <br/>
               <a href="{{ spanish_post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 Lea esta Pagina en Español
+              </a>
+              {% endif %}
+              {% if english_post and page.lang != "en" %}
+              <br/>
+              <a href="{{ english_post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                Read this page in English
               </a>
               {% endif %}
             </span>
