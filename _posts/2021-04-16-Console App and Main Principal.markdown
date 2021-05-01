@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Console App and Main Method
+title:  Console App and Main Principal
 date:   2021-04-16 21:27:49 -0400
 categories: basics
 background: /assets/img/banner.jpg
-lang: en
+lang: es
 ref: console
 ---
 

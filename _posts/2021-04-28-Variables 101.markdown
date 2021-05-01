@@ -4,6 +4,8 @@ title:  Variables 101
 date:   2021-04-27 21:27:49 -0400
 categories: basics
 background: /assets/img/banner.jpg
+lang: en
+ref: variables
 ---
 
 **Variables** are how we maintain state in a program.  Without them, we would be limited to hard-coded values and programs would not be able to change their output in response to user input.  There are many types of variables we can create.  
