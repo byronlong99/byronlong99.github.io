@@ -4,6 +4,10 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
+
+{% assign versions_of_this_post = site.posts | where : "ref", page.ref %}
+{% assign spanish_post = versions_of_this_post.items | where : "lang", "es" | first %}
+
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
   <header class="masthead">
@@ -20,7 +24,15 @@ layout: default
             <span class="meta">Posted by
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
+              content=page.content %}              
+            </span>
+            <span class="meta">
+              {% if spanish_post %}
+              <br/>
+              <a href="{{ spanish_post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                Lea esta Pagina en Español
+              </a>
+              {% endif %}
             </span>
           </div>
         </div>
