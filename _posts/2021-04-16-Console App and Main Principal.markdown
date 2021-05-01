@@ -8,7 +8,7 @@ lang: es
 ref: console
 ---
 
-Este blog se intenta dar una explicacion muy clara de los conceptos de programacion desde la comienza en .NET.  Sin embargo, 
+Este blog se intenta dar una explicacion muy clara de los conceptos de programacion desde la comienza en .NET.  Sin embargo, omitiré la organizacion del editor de código.  
 
 This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET.  However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET Core** we will use C# as the example language, but most (if not all) of the concepts are applicable to all languages.
 
