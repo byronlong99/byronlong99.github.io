@@ -8,11 +8,12 @@ lang: es
 ref: console
 ---
 
-Este blog se intenta dar una explicacion muy clara de los conceptos de programacion desde la comienza en .NET.  Sin embargo, omitiré la organizacion del editor de código y creacion del proyecto.
+Este blog se intenta dar una explicacion muy clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el .NET CORE usaremos C# como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
 
-This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET.  However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET Core** we will use C# as the example language, but most (if not all) of the concepts are applicable to all languages.
 
-To have a program, we must first have a **starting point**. The main method provides us with our starting point. When we execute the program, it will begin on line 9 in the below code block. The resulting output of the console would be **“Hello World”** and the program would terminate since there are no more lines of code to execute.
+Para tener un programa, Primer debemos tener un **punto inicial**.  El **método principal** nos provee.  
+
+To have a program, we must first have a **starting point**. The main method provides us with our starting point. When we execute the program, it will begin on line **9** in the below code block. The resulting output of the console would be **“Hello World”** and the program would terminate since there are no more lines of code to execute.
 
 {% highlight csharp linenos %}
 using System;
