@@ -8,8 +8,7 @@ lang: es
 ref: console
 ---
 
-Este blog se pretende dar una explicación clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el .NET CORE usaremos C# como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
-
+Este blog se pretende dar una explicación clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos C# como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
 
 Para tener un programa, Primer debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzara
 
@@ -24,7 +23,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hola Mundo!");
         }
     }
 }
