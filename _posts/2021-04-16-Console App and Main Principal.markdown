@@ -8,7 +8,9 @@ lang: es
 ref: console
 ---
 
-This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET. However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET Core** we will use C# as the example language, but most (if not all) of the concepts are applicable to all languages.
+Este blog se intenta dar una explicacion muy clara de los conceptos de programacion desde la comienza en .NET.  Sin embargo, 
+
+This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET.  However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET Core** we will use C# as the example language, but most (if not all) of the concepts are applicable to all languages.
 
 To have a program, we must first have a **starting point**. The main method provides us with our starting point. When we execute the program, it will begin on line 9 in the below code block. The resulting output of the console would be **“Hello World”** and the program would terminate since there are no more lines of code to execute.
 
