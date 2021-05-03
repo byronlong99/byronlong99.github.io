@@ -10,7 +10,7 @@ ref: variables
 
 **Variables** are how we maintain state in a program.  Without them, we would be limited to hard-coded values and programs would not be able to change their output in response to user input.  There are many types of variables we can create.  
 
-Below is a list of examples (however, this is not a comprehensive list).  Full list [here](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types):
+Below is a list of examples (however, this is not a comprehensive list).  Full list [here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types):
 
 * **bool** (either "true" or "false")
 * **int** (32-bit integer.  Values range from -2,147,483,648 to 2,147,483,647)
