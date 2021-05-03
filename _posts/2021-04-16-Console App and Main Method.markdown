@@ -38,7 +38,7 @@ Hello World!
 
 
 
-The **console** represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
+The **console** represents the the command window above and we can either write text to it (in the form of a **string**, more on this later) or read text from it (also in the form of a string).
 
 # Reading from a Console App
 

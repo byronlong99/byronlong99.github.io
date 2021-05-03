@@ -27,20 +27,18 @@ namespace ConsoleApp
 }
 {% endhighlight %}
 
-The only executable code in this example is line **9**.  
+La sola línea de código ejecutable en este ejemplo es línea **9**.
 
-Output below:
+Salida abajo:
 
 {% highlight console %}
 C:\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
-Hello World!
+Hola Mundo!
 {% endhighlight %}
 
+La **consola** representa la ventana de comando arriba y podemos escribirle texto (en la forma de un **string**, mas sobre esto después) o leer texto de él (también en la forma de un **string**).
 
-
-The **console** represents the the command window above and we can either write text to it (in the form of a string, more on this later) or read text from it (also in the form of a string).
-
-# Reading from a Console App
+# Leer de una aplicación de consola
 
 While the above example demonstrates how we write to the console, sometimes, it is necessary to read from one.  In the below example the console app will print "Please enter your name..." and pause.
 
