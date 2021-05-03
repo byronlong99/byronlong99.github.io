@@ -10,9 +10,7 @@ ref: console
 
 Este blog se pretende dar una explicación clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos C# como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
 
-Para tener un programa, Primer debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzara
-
-To have a program, we must first have a **starting point**. The main method provides us with our starting point. When we execute the program, it will begin on line **9** in the below code block. The resulting output of the console would be **“Hello World”** and the program would terminate since there are no more lines of code to execute.
+Para tener un programa, Primero debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzará en línea nueve en el bloque de código abajo.  La salida resultante sería **"Hola Mundo"** y el programa terminaría ya que no hay mas líneas de código para ejecutar.
 
 {% highlight csharp linenos %}
 using System;
