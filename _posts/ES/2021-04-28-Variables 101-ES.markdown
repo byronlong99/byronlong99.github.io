@@ -8,15 +8,15 @@ lang: es
 ref: variables
 ---
 
-**Variables** son como podemos mantener estado en un programa.  Sin ellos, estaríamos limitados a valores de codificación fija y programas no podrían cambiar su salida en respuesta a la entrada del usuario.  Hay muchos tipos de variables que podemos crear.
+**Variables** son como  mantenemos el estado en un programa.  Sin ellos, estaríamos limitados a valores de codificación fija y programas no podrían cambiar su salida en respuesta a la entrada del usuario.  Hay muchos tipos de variables que podemos crear.
 
 A continuación se muestra una lista de ejemplos (sin embargo, esta no es una completa).  La lista completa [aquí](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/built-in-types):
 
 * **bool** ("true" o "false")
 * **int** (entero de 32-bits.  Valores de -2,147,483,648 a 2,147,483,647)
 * **long** (entero de 64-bits)
-* **float** (numérico de punto flotante 32-bit)
-* **double** (64-bit floating point number)
+* **float** (numérico de punto flotante de 32-bits)
+* **double** (numérico de punto flotante de 64-bits)
 * **char** (single character.  i.e. c, 9, r, V)
 * **string** (text.  i.e. "Billy Bob")
 
