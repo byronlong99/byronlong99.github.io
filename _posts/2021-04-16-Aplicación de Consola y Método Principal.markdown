@@ -40,7 +40,7 @@ La **consola** representa la ventana de comando arriba y podemos escribirle text
 
 # Leer de una aplicación de consola
 
-Mientras que el ejemplo anterior demuestra como escribimos a la consola, a veces, es necessario leer de una.  En el ejemplo abajo la consola imprimirá "Por favor escribe tu nombre..." y se detendrá.
+Mientras que en el ejemplo anterior demuestra como escribimos a la consola, a veces, es necessario leer de una.  En el ejemplo abajo la consola imprimirá "Por favor escribe tu nombre..." y se detendrá.
 
 {% highlight csharp linenos %}
 using System;
