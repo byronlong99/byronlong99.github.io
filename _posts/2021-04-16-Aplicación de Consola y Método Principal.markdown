@@ -8,7 +8,7 @@ lang: es
 ref: console
 ---
 
-Este blog se pretende dar una explicación clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos C# como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
+Este blog se pretende dar una explicación clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos **C#** como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
 
 Para tener un programa, Primero debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzará en línea nueve en el bloque de código abajo.  La salida resultante sería **"Hola Mundo"** y el programa terminaría ya que no hay mas líneas de código para ejecutar.
 
@@ -40,7 +40,7 @@ La **consola** representa la ventana de comando arriba y podemos escribirle text
 
 # Leer de una aplicación de consola
 
-While the above example demonstrates how we write to the console, sometimes, it is necessary to read from one.  In the below example the console app will print "Please enter your name..." and pause.
+Mientras que el ejemplo anterior demuestra como escribimos a la consola, a veces, es necessario leer de una.  En el ejemplo abajo la consola imprimirá "Por favor escribe tu nombre..." y se detendrá.
 
 {% highlight csharp linenos %}
 using System;
@@ -51,11 +51,11 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your first name...");
-            string firstName = Console.ReadLine();
-            Console.WriteLine("Please enter your last name...");
-            string lastName = Console.ReadLine();
-            Console.WriteLine("Your name is: " + firstName + " " + lastName);
+            Console.WriteLine("Por favor escribe tu nombre...");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Por favor escribe tu apellido...");
+            string apellido = Console.ReadLine();
+            Console.WriteLine("Tu nombre entero es: " + nombre + " " + apellido);
         }
     }
 }
@@ -63,11 +63,11 @@ namespace ConsoleApp
 
 {% highlight console %}
 C:\ConsoleApp\bin\Debug\netcoreapp3.1>ConsoleApp.exe
-Please enter your first name...
+Por favor escribe tu nombre...
 Billy
-Please enter your last name...
+Por favor escribe tu apellido...
 Bob
-Your name is Billy Bob
+Tu nombre entero es Billy Bob
 {% endhighlight %}
 
-You can then type in your first name, press enter, then type your last name, and press enter once again.  If you typed "Billy", then "Bob" for example, the program would output "Your name is Billy Bob".
+Puedes escribir tu nombre, presionar enter, escribir tu apellido, y presionar enter otra vez.  Si escribiste **"Billy"**, después **"Bob"** por ejemplo, el programa saldría "Tu nombre entero es **Billy Bob**".

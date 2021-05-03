@@ -8,7 +8,7 @@ lang: en
 ref: console
 ---
 
-This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET.  However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET CORE** we will use C# as the example language, but most (if not all) of the concepts are applicable to all languages.
+This blog is intended to give a straightforward, explanation of programming concepts starting from the beginning in .NET.  However, I will omit the setup of the IDE and creation of the project. Since this is **the .NET CORE** we will use **C#** as the example language, but most (if not all) of the concepts are applicable to all languages.
 
 To have a program, we must first have a **starting point**. The **main method** provides us with our starting point. When we execute the program, it will begin on line **9** in the below code block. The resulting output of the console would be **“Hello World”** and the program would terminate since there are no more lines of code to execute.
 
@@ -72,4 +72,4 @@ Bob
 Your name is Billy Bob
 {% endhighlight %}
 
-You can then type in your first name, press enter, then type your last name, and press enter once again.  If you typed "Billy", then "Bob" for example, the program would output "Your name is Billy Bob".
+You can then type in your first name, press enter, then type your last name, and press enter once again.  If you typed **"Billy"**, then **"Bob"** for example, the program would output "Your name is **Billy Bob**".
