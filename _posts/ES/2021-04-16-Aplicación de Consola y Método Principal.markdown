@@ -8,7 +8,7 @@ lang: es
 ref: console
 ---
 
-Éste blog tiene como objetivo dar una explicación clara de los conceptos de programación desde la comienza en **.NET**.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos **C#** como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
+Este blog tiene como objetivo dar una explicación clara de los conceptos de programación desde la comienza en **.NET**.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos **C#** como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
 
 Para tener un programa, Primero debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzará en la línea nueve en el bloque de código abajo.  La salida resultante sería **"Hola Mundo"** y el programa terminaría ya que no hay mas líneas de código para ejecutar.
 
