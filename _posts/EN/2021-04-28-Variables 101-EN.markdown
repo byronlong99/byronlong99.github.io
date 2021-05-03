@@ -1,0 +1,102 @@
+---
+layout: post
+title:  Variables 101
+date:   2021-04-27 21:27:49 -0400
+categories: basics
+background: /assets/img/banner.jpg
+lang: en
+ref: variables
+---
+
+**Variables** are how we maintain state in a program.  Without them, we would be limited to hard-coded values and programs would not be able to change their output in response to user input.  There are many types of variables we can create.  
+
+Below is a list of examples (however, this is not a comprehensive list).  Full list [here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types):
+
+* **bool** (either "true" or "false")
+* **int** (32-bit integer.  Values range from -2,147,483,648 to 2,147,483,647)
+* **long** (64-bit integer)
+* **float** (32-bit floating point number)
+* **double** (64-bit floating point number)
+* **char** (single character.  i.e. c, 9, r, V)
+* **string** (text.  i.e. "Billy Bob")
+
+These types are called primitives since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future post.  Let's use a simple example of **integers**.  
+
+#### Problem 
+The local animal shelter calls you.  They say that they've taken in too many cats and they can no longer keep track of them.  They need **YOU** to solve the problem.
+
+They need you to keep track of **2** breeds of cats.  Tortoise shells and calicos.
+
+<img src="/assets/img/variables101/tortoiseshell.jpg" width="750"/>
+
+<img src="/assets/img/variables101/calico.jpg" width="750"/>
+
+They want to be able to enter the count of each and know the total number of cats.  They are counting on **US** to do it!
+
+First, let's declare a variable for each type of cat.  Then we can read from the console to set the count of each breed of cat.
+
+{% highlight csharp %}
+int tortoiseShellCats;
+int calicoCats;      
+
+Console.WriteLine("Enter number of tortoise shells:" );
+tortoiseShellCats = Console.ReadLine();
+
+Console.WriteLine("Enter number of calicos:" );
+calicoCats = Console.ReadLine();
+{% endhighlight %}
+
+Next we must add the count of both cats together.  This requires some simple addition which we can express below:
+
+{% highlight csharp %}
+int totalCats = tortoiseShellCats + calicoCats;
+{% endhighlight %}
+
+This will add the value of **tortoiseShellCats** to **calicoCats** and store the value in **totalCats**.  After this line runs, the sum of both breeds of cats will be in **totalCats**.  Now we can write the value out to the console.
+
+{% highlight csharp %}
+Console.WriteLine("Total Count of Cats:" + totalCats);        
+{% endhighlight %}
+
+The animal shelter can now enter the number of each type of cats!  They want to enter **15** for **tortoise shells** and **12** for **calicos**.  
+
+Below is an example of the execution of the program.
+
+{% highlight console %}
+C:\Catculator\bin\Debug\netcoreapp3.1>Catculator.exe
+Enter the number of tortoise shells:
+15
+Enter number of calicos:
+12
+Total Count of Cats: 27
+{% endhighlight %}
+
+Now all their problems are solved.  The staff is happy.  The cats are happy.  Everyone is happy thanks to **US**!
+
+Below is the entire program:
+
+{% highlight csharp %}
+using System;
+ 
+namespace Catculator
+{
+    static class Program
+    {
+        static void Main(string[] args)
+        {
+            int tortoiseShellCats;
+            int calicoCats;      
+
+            Console.WriteLine("Enter number of tortoise shells:" );
+            tortoiseShellCats = Console.ReadLine();
+
+            Console.WriteLine("Enter number of calicos:" );
+            calicoCats = Console.ReadLine();
+
+            int totalCats = tortoiseShellCats + calicoCats;
+
+            Console.WriteLine("Total Count of Cats:" + totalCats);
+        }
+    }
+}
+{% endhighlight %}

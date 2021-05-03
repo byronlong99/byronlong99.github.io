@@ -4,25 +4,25 @@ title:  Variables 101
 date:   2021-04-27 21:27:49 -0400
 categories: basics
 background: /assets/img/banner.jpg
-lang: en
+lang: es
 ref: variables
 ---
 
-**Variables** are how we maintain state in a program.  Without them, we would be limited to hard-coded values and programs would not be able to change their output in response to user input.  There are many types of variables we can create.  
+**Variables** son como  mantenemos el estado en un programa.  Sin ellos, estaríamos limitados a valores de codificación fija y programas no podrían cambiar su salida en respuesta a la entrada del usuario.  Hay muchos tipos de variables que podemos crear.
 
-Below is a list of examples (however, this is not a comprehensive list).  Full list [here](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types):
+A continuación se muestra una lista de ejemplos (sin embargo, esta no es una completa).  La lista completa [aquí](https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/built-in-types):
 
-* **bool** (either "true" or "false")
-* **int** (32-bit integer.  Values range from -2,147,483,648 to 2,147,483,647)
-* **long** (64-bit integer)
-* **float** (32-bit floating point number)
-* **double** (64-bit floating point number)
+* **bool** ("true" o "false")
+* **int** (entero de 32-bits.  Valores de -2,147,483,648 a 2,147,483,647)
+* **long** (entero de 64-bits)
+* **float** (numérico de punto flotante de 32-bits)
+* **double** (numérico de punto flotante de 64-bits)
 * **char** (single character.  i.e. c, 9, r, V)
 * **string** (text.  i.e. "Billy Bob")
 
 These types are called primitives since they are the simplest types that can be declared.  More complex programs typically will require more complex types but that will be covered in a future post.  Let's use a simple example of **integers**.  
 
-#### Problem 
+#### Problema
 The local animal shelter calls you.  They say that they've taken in too many cats and they can no longer keep track of them.  They need **YOU** to solve the problem.
 
 They need you to keep track of **2** breeds of cats.  Tortoise shells and calicos.

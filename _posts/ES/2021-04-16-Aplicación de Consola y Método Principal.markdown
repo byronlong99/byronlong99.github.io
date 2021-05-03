@@ -8,9 +8,9 @@ lang: es
 ref: console
 ---
 
-Este blog se pretende dar una explicación clara de los conceptos de programación desde la comienza en .NET.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos **C#** como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
+Este blog tiene como objetivo dar una explicación clara de los conceptos de programación desde la comienza en **.NET**.  Sin embargo, omitiré la organización del editor de código y creación del proyecto.  Ya que esto es el **.NET CORE** usaremos **C#** como el languaje de ejemplo, pero la mayoría (si no todos) de los conceptos son aplicables a todos los languajes.
 
-Para tener un programa, Primero debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzará en línea nueve en el bloque de código abajo.  La salida resultante sería **"Hola Mundo"** y el programa terminaría ya que no hay mas líneas de código para ejecutar.
+Para tener un programa, Primero debemos tener un **punto inicial**.  El **método principal** nos provee con nuestro punto inicial.  Cuando ejecutamos el programa, comenzará en la línea nueve en el bloque de código abajo.  La salida resultante sería **"Hola Mundo"** y el programa terminaría ya que no hay mas líneas de código para ejecutar.
 
 {% highlight csharp linenos %}
 using System;
@@ -40,7 +40,7 @@ La **consola** representa la ventana de comando arriba y podemos escribirle text
 
 # Leer de una aplicación de consola
 
-Mientras que el ejemplo anterior demuestra como escribimos a la consola, a veces, es necessario leer de una.  En el ejemplo abajo la consola imprimirá "Por favor escribe tu nombre..." y se detendrá.
+Mientras que en el ejemplo anterior demuestra como escribimos a la consola, a veces, es necessario leer de una.  En el ejemplo abajo la consola imprimirá "Por favor escribe tu nombre..." y se detendrá.
 
 {% highlight csharp linenos %}
 using System;
