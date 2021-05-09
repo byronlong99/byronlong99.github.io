@@ -14,13 +14,14 @@ There are several **operators** that can be used with booleans.  And, or, not, e
 
 ##### Boolean Operators:
 
-
+{:class="tablestyle"}
 A       |       B       | AND           |   OR       |
 ------- | ------------- | -----------   | ---------- |
 false   |   false       |   **false**   |  **false** |
 false   |   true        |   **false**   |  **true**  |
 true    |   false       |   **false**   |  **true**  |
 true    |   true        |   **true**    |  **false** |
+
 
 Here is some code to demonstrate the and (**&&**) operator: 
 
@@ -62,4 +63,5 @@ Here is the list of operators:
 
 From these
 
-### Conditionals
+#### Conditional Statements
+
