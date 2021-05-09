@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Booleans and Conditional Statements
-date:   2021-04-28 21:27:49 -0400
+title:  Mathematical Operators & Expressions
+date:   2021-04-29 21:27:49 -0400
 categories: basics
 background: /assets/img/banner.jpg
 lang: en
-ref: booleans
+ref: mathematical operators and expressions
 ---
 
 **Booleans** are a type that has 2 possible values, **true** and **false**, nothing more.  It is the simplest of all primitive types.
@@ -61,7 +61,7 @@ Here is the list of operators:
 * **\|\|** (or, this is **"true"** if either part is **"true"**)
 * **!** (not, this converts **"false"** to  **"true"** and **"true"** to **"false"**)
 
-From these
+From these basic elements, we can create more complex boolean expressions.
 
 #### Conditional Statements
 
