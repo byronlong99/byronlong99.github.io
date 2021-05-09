@@ -53,13 +53,13 @@ bool booleanA = true;
 bool resultingBoolean = !booleanA;
 {% endhighlight %}
 
-Resulting value of **resultingBoolean** would be **"false"** since **booleanA** is true.
+The resulting value of **resultingBoolean** would be **"false"** since **booleanA** is true.
 
 Here is the list of operators:
 
-* **&&** (and, this is **true** if both parts are **true**)
-* **\|\|** (or, this is true if either part is true)
-* **!** (not, this make false true and true)
+* **&&** (and, this is **"true"** if both parts are **"true"**)
+* **\|\|** (or, this is **"true"** if either part is **"true"**)
+* **!** (not, this converts **"false"** to  **"true"** and **"true"** to **"false"**)
 
 From these
 
