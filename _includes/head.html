@@ -8,6 +8,27 @@
     {% else %}{{ site.title | escape }}{% endif %}
   </title>
 
+<style>
+
+.tablestyle th{
+    border:0px;
+    background-color: #f1f1f1;      
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:  12px;
+    padding-bottom:  12px;
+}
+
+.tablestyle td{
+    background-color: #fcfcfc;
+    border:0px;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:  12px;
+    padding-bottom:  12px;
+}
+</style>
+  
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
