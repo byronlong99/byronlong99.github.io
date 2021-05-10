@@ -8,10 +8,19 @@ lang: en
 ref: arithmetic operators and expressions
 ---
 
-Without **arithmetic operators** and **expressions**, we would be have no ability to manipulate or change variables.  In the previous post, we saw a simple example of the addition operator (+).  There are 5 arithmetic operators.
+Without **arithmetic operators** and **expressions**, we would be have no ability to manipulate or change **variables**.  In the previous post, we saw a simple example of the addition operator (+).  There are 5 basic operators available in **C#**.
 
-* \+ (the addition operator, adds the numbers on either side of the operator)
-* \- (the subtraction operator)
-* \* (the multiplication operator)
-* \ (the division operator)
-* % (the remainder division operator)
+There are 5 arithmetic operators:
+
+* \+ (the **addition** operator. i.e. 5 + 3, adds 3 to 5. result: 8 )
+* \- (the **subtraction** operator. i.e. 5 - 3.  subtracts 3 from 5.  result: 2)
+* \* (the **multiplication** operator. i.e. 5 * 3. multiplies 5 by 3. result: 15)
+* \ (the **division** operator)
+* % (the **remainder division** operator)
+
+Here
+
+{% highlight csharp %}
+
+
+{% endhighlight %}
