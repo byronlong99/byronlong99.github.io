@@ -18,9 +18,13 @@ There are 5 basic arithmetic operators available in **C#**:
 * **\\** (the **division** operator. i.e. 5 / 3. divides 5 by 3. result: **1**)
 * **%** (the **remainder division** operator. i.e. divides 5 by 3 and takes the remainder. result: **2**)
 
-
+A simple example of the addition operator:
 
 {% highlight csharp %}
+int c;
 
-
+c = 5 + 3;
 {% endhighlight %}
+
+After the above code has run.  the variable **c** would have the value of **8** since the result of **5 + 3** is **8**.  The same is would be true if **5** and **3** were replaced by variables.
+>>>>>>> Stashed changes
