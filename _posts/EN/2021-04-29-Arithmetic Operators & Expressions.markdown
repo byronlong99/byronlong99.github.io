@@ -35,7 +35,9 @@ int b = 3;
 int c = a + b;
 {% endhighlight %}
 
-Once again the value of **c** would be **8**.  This example is still very simple.  Let's make it more complicated!  What if instead, we had **3** numbers to add.  What order would they be added in.  The operators go from left to right.  In the example below, a + b (5 + 3) would be evaluated first to 8.  Then we would have **8** + c (8 + 1) which would evaluate to **9**.
+Once again the value of **c** would be **8**.  This example is still very simple.  Let's make it more complicated!  What if instead, we had **3** numbers to add.  What order would they be added in.  The operators go from left to right. 
+
+In the example below, **a** + **b** (**5** + **3**) would be evaluated first to **8**.  Then we would have **8** + **c** (**8** + **1**) which would evaluate to **9**.
 
 {% highlight csharp %}
 int a = 5;
@@ -47,5 +49,5 @@ int d = a + b + c;
 
 ##### Precendence of Operators
 
-* - and /
-* + and *
+* **-**, **/**
+* **+**, **\***, **%**
