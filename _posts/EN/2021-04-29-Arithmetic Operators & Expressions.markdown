@@ -26,5 +26,26 @@ int c;
 c = 5 + 3;
 {% endhighlight %}
 
-After the above code has run.  the variable **c** would have the value of **8** since the result of **5 + 3** is **8**.  The same is would be true if **5** and **3** were replaced by variables.
->>>>>>> Stashed changes
+After the above code has run.  the variable **c** would have the value of **8** since the result of **5 + 3** is **8**.  The same is would be true if **5** and **3** were replaced by variables.  Let's replace the hard coded **5 + 3** with variables.
+
+{% highlight csharp %}
+int a = 5;
+int b = 3;
+
+int c = a + b;
+{% endhighlight %}
+
+Once again the value of **c** would be **8**.  This example is still very simple.  Let's make it more complicated!  What if instead, we had **3** numbers to add.  What order would they be added in.  The operators go from left to right.  In the example below, a + b (5 + 3) would be evaluated first to 8.  Then we would have **8** + c (8 + 1) which would evaluate to **9**.
+
+{% highlight csharp %}
+int a = 5;
+int b = 3;
+int c = 1;
+
+int d = a + b + c;
+{% endhighlight %}
+
+##### Precendence of Operators
+
+* - and /
+* + and *
