@@ -47,7 +47,21 @@ int c = 1;
 int d = a + b + c;
 {% endhighlight %}
 
+**d** would be **9** after this section of code runs.
+
 ##### Precendence of Operators
 
 * **-**, **/**
 * **+**, **\***, **%**
+
+Operators of the same precedence will execute from left to right.  However, multiplication and division will execute before addition and subtraction even if they occur farther to the right of the expression. 
+
+In this example.  The part of the expression **b** * **c** (**3** x **2**) will execute first.  This leaves us with **a** + **6** (**5** + **6**).  This will evaluate to **11**.
+
+{% highlight csharp %}
+int a = 5;
+int b = 3;
+int c = 2;
+
+int d = a + b * c;
+{% endhighlight %}
