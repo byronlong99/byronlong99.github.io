@@ -65,3 +65,7 @@ int c = 2;
 
 int d = a + b * c;
 {% endhighlight %}
+
+##### Using parenthesis () to indicate precendance
+
+Parentheses can also be used to indicate precedence.  In the example above, the multiplication operation occurs after addition, since addition has higher precedence.  However, if we instead add parentheses 
